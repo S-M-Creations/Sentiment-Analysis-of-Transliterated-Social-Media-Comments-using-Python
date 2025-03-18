@@ -8,8 +8,6 @@ from textblob import TextBlob
 from googletrans import Translator
 import http.client
 import json
-import requests
-
 
 TWITTER_API_KEY = st.secrets["TWITTER_API_KEY"]
 YOUTUBE_API_KEY = st.secrets["YOUTUBE_API_KEY"]
