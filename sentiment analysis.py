@@ -8,9 +8,13 @@ from textblob import TextBlob
 from googletrans import Translator
 import http.client
 import json
+import requests
+from dotenv import load_dotenv
+import os 
 
-TWITTER_API_KEY = st.secrets["TWITTER_API_KEY"]
-YOUTUBE_API_KEY = st.secrets["YOUTUBE_API_KEY"]
+load_dotenv()
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+TWITTER_API_KEY = os.getenv("TWITTER_API_KEY")
 
 if not YOUTUBE_API_KEY or not TWITTER_API_KEY:
     st.error("API keys are missing! Please check your .env file!2")
@@ -76,7 +80,7 @@ def fetch_youtube_comments(video_id, api_key):
 def fetch_tweets(tweet_id, api_key):
     conn = http.client.HTTPSConnection("twitter-api45.p.rapidapi.com")
     headers = {
-        'x-rapidapi-key': api_key,
+        'x-rapidapi-key': "68acfccf96msh43988501728891ep174caejsna4f16e4418ad",
         'x-rapidapi-host': "twitter-api45.p.rapidapi.com"
     }
     conn.request("GET", f"/latest_replies.php?id={tweet_id}", headers=headers)
@@ -144,9 +148,9 @@ with col1:
 with col2:
     social_button("images/X.png", "⠀⠀X⠀⠀", "twitter")
 with col3:
-    social_button("images/Instagram.png", "Instagram", "ig")
+    social_button("images/instagram.png", "instagram", "ig")
 with col4:
-    social_button("images/facebook.png", "Facebook", "fb")
+    social_button("images/facebook.png", "facebook", "fb")
 
 if "platform_selected" not in st.session_state:
     st.session_state.platform_selected = None
