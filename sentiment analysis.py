@@ -111,7 +111,7 @@ def transliterate_and_translate(text):
         return None
 st.markdown("""
     <div style="position: fixed; bottom: 10px; right: 10px; background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 8px; width: auto;">
-        <h3 style="color: white; font-size: 18px; font-weight: bold; text-align: center;">Project By:</h3>
+        <h3 style="color: white; font-size: 18px; font-weight: bold; text-align: center;">A Project By:</h3>
         <p style="color: white; font-size: 14px; line-height: 1.6;">
             <strong>S.K.Mruduvani</strong><br>
             GitHub <a href="https://github.com/Mrudu17" target="_blank">
