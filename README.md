@@ -86,7 +86,7 @@ A **pie chart** visualizes the sentiment distribution, showing you how people fe
 ```env
 # .env file
 YOUTUBE_API_KEY="your_youtube_api_key"
-X_API_KEY="your_X_api_key"
+TWITTER_API_KEY="your_twitter_api_key"
 ```
 
 ### Step 4: Run the .py file
