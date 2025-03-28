@@ -113,3 +113,7 @@ streamlit run file_name.py
 - **Researchers**: Analyze public opinion on specific topics by collecting comments from social media.
 
 ---
+## VISITORS
+
+![Visitor Count](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square)
+---
