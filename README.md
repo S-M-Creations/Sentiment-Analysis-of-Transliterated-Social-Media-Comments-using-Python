@@ -58,7 +58,7 @@ Once the analysis is complete, the results can be downloaded in a **CSV** format
 A **pie chart** visualizes the sentiment distribution, showing you how people feel overall about the content.
 
 ---
-## How to Create YouTube & Twitter API from RapidAPI 
+## How to Create YouTube & Twitter API from RapidAPI and storing them
 
 ### Step 1: Create YouTube API Key from Google Cloud
 
@@ -77,6 +77,17 @@ A **pie chart** visualizes the sentiment distribution, showing you how people fe
 3. Select an API and subscribe to a pricing plan (free or paid).
 4. Navigate to the **Endpoints** section to test API requests.
 5. Copy the **API Key** from the **Header Parameters** section.
+
+### Step 3: Store API Keys in a `.env` File
+
+1. Inside your Streamlit project, create a `.env` file.
+2. Add the API keys to the `.env` file:
+
+```env
+# .env file
+YOUTUBE_API_KEY="your_youtube_api_key"
+TWITTER_API_KEY="your_twitter_api_key"
+```
 
 ---
 ## 📷 OUTPUT SCREENS
