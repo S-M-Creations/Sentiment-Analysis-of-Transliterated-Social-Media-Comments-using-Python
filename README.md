@@ -58,7 +58,27 @@ Once the analysis is complete, the results can be downloaded in a **CSV** format
 A **pie chart** visualizes the sentiment distribution, showing you how people feel overall about the content.
 
 ---
+## How to Create YouTube & Twitter API from RapidAPI 
 
+# Step 1: Create YouTube API Key from Google Cloud
+
+1. Go to [Google Cloud Console](https://console.cloud.google.com/) and sign in.
+2. Click **Select a Project** → **New Project** → Give it a name.
+3. Navigate to **APIs & Services** → **Library**.
+4. Search for **YouTube Data API v3** and enable it.
+5. Go to **APIs & Services** → **Credentials**.
+6. Click **Create Credentials** → **API Key**.
+7. Copy the generated API Key.
+
+# Step 2: Create Twitter API Key from RapidAPI
+
+1. Go to [RapidAPI](https://rapidapi.com/) and sign in.
+2. Search for **Twitter API** in the RapidAPI marketplace.
+3. Select an API and subscribe to a pricing plan (free or paid).
+4. Navigate to the **Endpoints** section to test API requests.
+5. Copy the **API Key** from the **Header Parameters** section.
+
+---
 ## 📷 OUTPUT SCREENS
 
 ![image](https://github.com/user-attachments/assets/354e32f6-3e8b-4372-ac7a-b192ecca66b5)
