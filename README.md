@@ -60,7 +60,7 @@ A **pie chart** visualizes the sentiment distribution, showing you how people fe
 ---
 ## How to Create YouTube & Twitter API from RapidAPI 
 
-# Step 1: Create YouTube API Key from Google Cloud
+### Step 1: Create YouTube API Key from Google Cloud
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/) and sign in.
 2. Click **Select a Project** → **New Project** → Give it a name.
@@ -70,7 +70,7 @@ A **pie chart** visualizes the sentiment distribution, showing you how people fe
 6. Click **Create Credentials** → **API Key**.
 7. Copy the generated API Key.
 
-# Step 2: Create Twitter API Key from RapidAPI
+### Step 2: Create Twitter API Key from RapidAPI
 
 1. Go to [RapidAPI](https://rapidapi.com/) and sign in.
 2. Search for **Twitter API** in the RapidAPI marketplace.
