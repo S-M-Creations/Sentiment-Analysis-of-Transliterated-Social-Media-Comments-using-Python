@@ -89,10 +89,10 @@ YOUTUBE_API_KEY="your_youtube_api_key"
 TWITTER_API_KEY="your_twitter_api_key"
 ```
 
-### Step 4: Run the .py file
+### Step 4: Run the .py file 
 
 ```
-streamlit run fine_name.py
+streamlit run file_name.py
 ```
 
 ---
