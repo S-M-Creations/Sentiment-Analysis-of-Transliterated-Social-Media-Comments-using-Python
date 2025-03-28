@@ -58,7 +58,7 @@ Once the analysis is complete, the results can be downloaded in a **CSV** format
 A **pie chart** visualizes the sentiment distribution, showing you how people feel overall about the content.
 
 ---
-## How to Create YouTube & Twitter API from RapidAPI and storing them
+## How to Create YouTube & Twitter API from RapidAPI and store them
 
 ### Step 1: Create YouTube API Key from Google Cloud
 
