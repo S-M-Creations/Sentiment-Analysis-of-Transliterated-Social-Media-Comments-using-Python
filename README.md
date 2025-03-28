@@ -89,6 +89,12 @@ YOUTUBE_API_KEY="your_youtube_api_key"
 TWITTER_API_KEY="your_twitter_api_key"
 ```
 
+### Step 4: Run the .py file
+
+```
+streamlit run fine_name.py
+```
+
 ---
 ## 📷 OUTPUT SCREENS
 
@@ -107,10 +113,3 @@ TWITTER_API_KEY="your_twitter_api_key"
 - **Researchers**: Analyze public opinion on specific topics by collecting comments from social media.
 
 ---
-
-## 🔑 **Setup & Installation**
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Mrudu17/Sentiment-Analysis-Social-Media-Comments.git
-   cd Sentiment-Analysis-Social-Media-Comments
