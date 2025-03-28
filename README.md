@@ -8,23 +8,23 @@
 
 ## 📜 **Project Overview**
 
-Welcome to **Sentiment Analysis of Transliterated Social Media Comments!** This project dives into analyzing the sentiment of social media comments, specifically from YouTube and Twitter (X), using Natural Language Processing (NLP) techniques. The goal is to assess the overall mood (positive, negative, or neutral) of user comments on various platforms and provide insightful analysis for content creators and marketers.
+This project dives into analyzing the sentiment of social media comments, specifically from YouTube and X (formerly Twitter), using Natural Language Processing (NLP) techniques. The goal is to assess the overall mood (positive, negative, or neutral) of user comments on various platforms and provide insightful analysis for content creators and marketers.
 
 ---
 
 ## 🚀 **How It Works**
 
 ### 1. **Platform Selection:**
-- You can choose to analyze comments from **YouTube**, **Twitter**, or **Instagram** (coming soon). Simply click on the platform of your choice.
+- You can choose to analyze comments from **YouTube**, **X**, or **Instagram** (coming soon). Simply click on the platform of your choice.
 
 ### 2. **Input Your URL:**
 - For **YouTube**: Paste the URL of a YouTube video to fetch the latest comments.
-- For **Twitter**: Paste the URL of a tweet to fetch the replies.
+- For **X**: Paste the URL of a tweet to fetch the replies.
 
 ### 3. **Processing & Analysis:**
 - The application will **preprocess** the comments by removing unnecessary text like URLs, emojis, and handles, while keeping non-ASCII characters (such as Telugu).
 - **Sentiment Analysis** will then classify each comment as either **positive**, **negative**, or **neutral**.
-- **Translation**: If comments are not in English, they will be automatically **transliterated and translated** to English for analysis.
+- If comments are not in English, they will be automatically **transliterated and translated** to English for analysis.
 
 ### 4. **Results:**
 - The app will present a **detailed analysis** of the comments, along with a **pie chart** showing the sentiment distribution.
@@ -36,7 +36,7 @@ Welcome to **Sentiment Analysis of Transliterated Social Media Comments!** This 
 - **Python** (Core Language)
 - **Streamlit** (Interactive Web Interface)
 - **Google YouTube API** (Fetching YouTube comments)
-- **Twitter API** (Fetching tweets)
+- **X API** (Fetching tweets)
 - **TextBlob** (Sentiment Analysis)
 - **Googletrans** (Translation)
 - **Matplotlib** (Data Visualization)
@@ -58,7 +58,7 @@ Once the analysis is complete, the results can be downloaded in a **CSV** format
 A **pie chart** visualizes the sentiment distribution, showing you how people feel overall about the content.
 
 ---
-## 📔How to Create and store YouTube & Twitter API(Rapid API)
+## How to Create and use YouTube's & X's API
 
 ### Step 1: Create YouTube API Key from Google Cloud
 
@@ -70,7 +70,7 @@ A **pie chart** visualizes the sentiment distribution, showing you how people fe
 6. Click **Create Credentials** → **API Key**.
 7. Copy the generated API Key.
 
-### Step 2: Create Twitter API Key from RapidAPI
+### Step 2: Create X API Key from RapidAPI
 
 1. Go to [RapidAPI](https://rapidapi.com/) and sign in.
 2. Search for **Twitter API** in the RapidAPI marketplace.
@@ -80,16 +80,16 @@ A **pie chart** visualizes the sentiment distribution, showing you how people fe
 
 ### Step 3: Store API Keys in a `.env` File
 
-1. Inside your Streamlit project, create a `.env` file.
+1. In your project folder, create a `.env` file.
 2. Add the API keys to the `.env` file:
 
 ```env
 # .env file
 YOUTUBE_API_KEY="your_youtube_api_key"
-TWITTER_API_KEY="your_twitter_api_key"
+X_API_KEY="your_X_api_key"
 ```
 
-### Step 4: Run the .py file 
+### Step 4: Run the .py file
 
 ```
 streamlit run file_name.py
